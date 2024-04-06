@@ -138,7 +138,7 @@ const login = asyncHandler(async (req, res) => {
     }
     const accessToken = createAccessToken({ id: user._id });
     const refreshToken = createRefreshToken({ id: user._id });
-    res.cookie("refreshtoken", refreshToken, {
+    res.cookie("refreshToken", refreshToken, {
       httpOnly: true,
       path: "/api/refreshToken",
       sameSite: "lax",
@@ -146,7 +146,7 @@ const login = asyncHandler(async (req, res) => {
     });
 
     res.status(200).json({
-      message: "Logged in  Successfully!",
+      message: "Logged in Successfully!",
       status: true,
       token: accessToken,
       user: {

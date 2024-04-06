@@ -1,0 +1,40 @@
+.header {
+  border-bottom: 1px solid lightgray;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  min-height: 60px;
+  margin: auto;
+}
+
+.header__left {
+  color: #504095;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__right--form {
+  margin: 0 50px 0 0;
+}
+
+.header__right--login {
+  margin: 0 10px 0 0;
+  background-color: #07a6e8;
+  border: none;
+  color: #fff;
+}
+
+.header__right--users {
+  background-color: #fff;
+  border-color: #07a6e8;
+  color: #07a6e8;
+}
