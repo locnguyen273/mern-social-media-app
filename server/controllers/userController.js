@@ -94,7 +94,7 @@ const follow = asyncHandler(async (req, res) => {
   }
 });
 
-const unfollow = asyncHandler(async (req, res) => {
+const unFollow = asyncHandler(async (req, res) => {
   try {
     const newUser = await Users.findOneAndUpdate(
       { _id: req.params.id },
@@ -157,6 +157,6 @@ module.exports = {
   getUser,
   updateUser,
   follow,
-  unfollow,
+  unFollow,
   suggestionUser,
 };
