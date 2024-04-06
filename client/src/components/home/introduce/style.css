@@ -1,0 +1,31 @@
+.introduce {
+  width: 700px;
+  height: 200px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  transform: translateY(70px);
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduce__title {
+  display: flex;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.introduce__bold {
+  margin: 0 0 0 5px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #504095;
+}
+
+.introduce__content {
+  font-weight: 500;
+  font-size: 24px;
+}

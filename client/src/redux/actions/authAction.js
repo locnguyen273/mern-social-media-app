@@ -1,6 +1,6 @@
 import { postDataAPI } from "../../utils/fetchData";
-import { GLOBAL_TYPES } from "./globalTypes";
 import valid from "../../utils/validation";
+import { GLOBAL_TYPES } from './globalTypes';
 
 export const TYPES = {
   AUTH: "AUTH",
